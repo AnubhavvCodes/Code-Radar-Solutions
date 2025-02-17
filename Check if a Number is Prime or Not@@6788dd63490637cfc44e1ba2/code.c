@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    if(n>1 && n%1==0 && n%n==0){
+    int a;
+    scanf("%d", &a);
+    if(a>1 && a%1==0 && a%a==0){
         printf("Prime");
     }
     else{
