@@ -4,7 +4,7 @@ int main(){
     if(ch>='A' || ch<='Z'){
         printf("Alphabet");
     }
-    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+      if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
         printf("Vowel");
     }{
         else{
