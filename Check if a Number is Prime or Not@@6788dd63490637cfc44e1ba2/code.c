@@ -1,23 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int a, i, isPrime = 1;
+    int a;
 
     scanf("%d", &a);
 
     if (a < 2) {
         printf("Not Prime");
-    } else {
-        for (i = 2; i < a; i++) {
-            if (a % i == 0) {
-                isPrime = 0;
-                break;
-            }
-        }
-        if (isPrime)
-            printf("Prime");
-        else
-            printf("Not Prime");
+    } 
+    else if (a == 2 || a == 3 || a == 5 || a == 7) {
+        printf("Prime");
+    } 
+    else if (a % 2 == 0 || a % 3 == 0 || a % 5 == 0 || a % 7 == 0) {
+        printf("Not Prime");
+    } 
+    else {
+        printf("Prime");
     }
 
     return 0;
