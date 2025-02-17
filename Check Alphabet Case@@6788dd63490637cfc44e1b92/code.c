@@ -3,7 +3,7 @@ int main(){
     char a;
     scanf("%d",&a);
     if(isupper(a)){
-        printf("Uppercase"):
+        printf("Uppercase");
     }
     else{
         printf("Lowercase");
