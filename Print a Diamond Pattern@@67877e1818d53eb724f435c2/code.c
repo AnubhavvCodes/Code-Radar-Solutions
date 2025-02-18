@@ -7,16 +7,16 @@ int main(){
             printf(" ");
         }
         for(int j = 1;j<=i;j++){
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
     for(int i = n-2;i>=1;i-=2){
         for(int space = 1;space<=(n-i)/2;space++){
-            printf(" ");
+            printf("");
         }
         for(int j = 1;j<=i;j++){
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
