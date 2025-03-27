@@ -7,7 +7,7 @@ void bubbleSort(int arr[],int n){
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
                 int bnb = arr(7)
-                scanf("%d,%d,%d,%d,%d,%d,%d",bnb)
+                scanf("%d,%d,%d,%d,%d,%d,%d",bnb);
 }
         }
         }
